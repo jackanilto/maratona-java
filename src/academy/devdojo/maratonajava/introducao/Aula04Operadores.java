@@ -46,8 +46,12 @@ public class Aula04Operadores {
         // Operadores de atribuiçao  =  +=  -=  *=  /=   %=
 
         double bonus = 1800;
-        bonus = bonus + 1000;
+        bonus = bonus + 1000;  // 1ª forma de fazer
         System.out.println(bonus);
+        // outra forma de fazer economizando codigo
+        double bonus2= 1800;
+        bonus2 += 1000;        // 2ª forma de fazer
+        System.out.println(bonus2);
 
     }
 }
