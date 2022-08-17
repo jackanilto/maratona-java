@@ -49,9 +49,22 @@ public class Aula04Operadores {
         bonus = bonus + 1000;  // 1ª forma de fazer
         System.out.println(bonus);
         // outra forma de fazer economizando codigo
-        double bonus2= 1800;
-        bonus2 += 1000;        // 2ª forma de fazer
+        double bonus2= 1800;  //1800
+        bonus2 += 1000;       //2800  // 2ª forma de fazer
+        bonus2 -= 1000;       //1800
+        bonus2 *= 2;          //3600
+        bonus2 /= 2;          //1800
+        bonus2 %= 2;          //0.0
         System.out.println(bonus2);
+
+        //
+        int contador = 0;
+        contador += 1;  // = 1
+        contador ++;    // incrementa 1 = 2
+        contador --;    // decrementa 1 = 1
+        ++contador;    // decrementa 1 = 1
+        --contador;    // decrementa 1 = 1
+        System.out.println(contador);
 
     }
 }
