@@ -8,7 +8,8 @@ public class Aula05EstruturasCondicionais {
         if (isAutorizadoCompraBebida){
             System.out.println("Autorizado a comprar");
         }
-        if(isAutorizadoCompraBebida == false) {
+        //if(isAutorizadoCompraBebida == false)   ESTA FORMA TBM ESTÁ CORRETA
+        if(!isAutorizadoCompraBebida) {
             System.out.println("Sem autorização");
         }
     }
