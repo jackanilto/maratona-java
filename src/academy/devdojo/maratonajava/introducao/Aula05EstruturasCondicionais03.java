@@ -2,11 +2,12 @@ package academy.devdojo.maratonajava.introducao;
 
 public class Aula05EstruturasCondicionais03 {
        public static void main(String[] args) {
-       double salario = 6000;
+       double salario = 5000;
+       //(condicao) ? verdadeiro : falso
        String mensagemDoar =" Eu vou daor 500 pro DevDojo";
        String mensagemNaoVouDoar ="Ainda nao posso doar";
 
-       String resultado = salario > 5000 ? mensagemDoar : mensagemNaoVouDoar;
+       String resultado = salario > 5000 ? " Eu vou daor 500 pro DevDojo" : "Ainda nao posso doar";
 
        System.out.println(resultado);
    }
