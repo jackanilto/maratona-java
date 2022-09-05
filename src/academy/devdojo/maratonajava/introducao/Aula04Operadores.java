@@ -14,7 +14,7 @@ public class Aula04Operadores {
 
         /*operadores lógicos
         < menor     >  maior   <= menor igual
-        >= maior igual    == giaul   != diferente
+        >= maior igual    == igual   != diferente
          */
         boolean isDezMaiorQueVinte = 10 > 20;
         boolean isDezMenorQueVinte = 10 < 20;
