@@ -8,15 +8,15 @@ public class Aula05EstruturasCondicionais04 {
         double taxa2 = 40.80 / 100;
         double taxa4 = 52.00 / 100;
 
-        String taxaAnual = new String();
+        String taxaAnual = "";
         if (salario >= 19982){
             taxaAnual = String.valueOf(salario * taxa1);
         } else if (salario > 19982 && salario < 33791) {
-            salario = salario * taxa2;
+            salario *= taxa2; // salario = salario * taxa4;
         }else {
-            salario = salario * taxa4;
+            salario *= taxa4; // salario = salario * taxa4;
         }
-        System.out.println(taxaAnual);
+        System.out.println("Valor da taxa anual: "+taxaAnual);
 
     }
 }
