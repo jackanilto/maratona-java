@@ -2,10 +2,10 @@ package academy.devdojo.maratonajava.introducao;
 
 public class Aula05EstruturasCondicionais05 {
     public static void main(String[] args) {
-        // imprima o dia da semana considerando 1 como domindo
+        // imprima o dia da semana considerando 1 como domingo
         byte dia = 12;
         //variaveis que podem ser usadas em switch
-        // char, int, byt, short, enum, String
+        // char, int, byte, short, enum, String
         switch (dia) {
             case 1:
                 System.out.println("Domingo");
