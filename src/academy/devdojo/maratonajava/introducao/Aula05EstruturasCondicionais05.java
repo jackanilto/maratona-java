@@ -32,7 +32,7 @@ public class Aula05EstruturasCondicionais05 {
                 break;
         }
 
-        char sexo ='M';
+        char sexo = 'M';
         switch (sexo) {
             case 'M':
                 System.out.println("Homem");
