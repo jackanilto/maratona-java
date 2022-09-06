@@ -9,20 +9,20 @@ public class Aula05EstruturasCondicionais02 {
         // idade >= 18 categoria adulto
 
         int idade = 12;  // aqui eu poderia criar uma query consulta em uma table para extrair o valor
-  //      if(idade< 15){
-  //          System.out.println("Categoria Infantil");
-  //      } else if (idade >= 15 && idade < 18){
-  //          System.out.println("Categoria Juvenil");
-  //      }else {
-  //          System.out.println("Categoria adulto");
+        //      if(idade< 15){
+        //          System.out.println("Categoria Infantil");
+        //      } else if (idade >= 15 && idade < 18){
+        //          System.out.println("Categoria Juvenil");
+        //      }else {
+        //          System.out.println("Categoria adulto");
 
         // LIMPANDO O CÓDIGO
         String categoria;
-        if(idade< 15){
+        if (idade < 15) {
             categoria = "Categoria Infantil";
-        } else if (idade >= 15 && idade < 18){
+        } else if (idade >= 15 && idade < 18) {
             categoria = "Categoria Juvenil";
-        }else {
+        } else {
             categoria = "Categoria adulto";
         }
         System.out.println(categoria);
