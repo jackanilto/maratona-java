@@ -10,7 +10,7 @@ public class Aula04Operadores {
 
         //Resto  %
         int resto = 21 % 7;
-        System.out.println(resto);
+        System.out.println("Resto: " +resto);
 
         /*operadores lógicos
         < menor     >  maior   <= menor igual
