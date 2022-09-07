@@ -5,9 +5,11 @@ public class Aula06EstruturasDeRepeticao {
         //While, do while, for
         int count = 0;
         while (count < 10){
-            System.out.println(count);
-            count ++;
+            System.out.println(++count);
 
+        }
+        do{
+            System.out.println();
         }
     }
 
