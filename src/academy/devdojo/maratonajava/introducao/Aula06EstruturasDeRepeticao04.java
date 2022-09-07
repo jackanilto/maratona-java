@@ -7,10 +7,11 @@ public class Aula06EstruturasDeRepeticao04 {
         double ValorDoCarro = 30000.00;
         for (int numeroDeParcelas = 1; numeroDeParcelas <= ValorDoCarro ; numeroDeParcelas++) {
             double valorDaParcela = ValorDoCarro / numeroDeParcelas;
-            if(valorDaParcela >= 1000){
+            if (valorDaParcela < 1000){
+                break;
+            }
                 System.out.println("Você irá pagar: "+numeroDeParcelas+ " de R$: "+valorDaParcela);
             }
-
         }
      //   double valorDoCarro = 23500;
      //   for (int numeroParcelas = 1; numeroParcelas <= valorDoCarro; numeroParcelas++) {
@@ -23,5 +24,4 @@ public class Aula06EstruturasDeRepeticao04 {
 //
      //   }
     }
-}
 
