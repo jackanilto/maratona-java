@@ -25,6 +25,6 @@ public class Aula07Arrays03 {
         int num = numeros3[0];
         System.out.println("Imprime a variavel na posicao 0, ou seja o numero: " + (num));
         num = numeros3[1];
-        System.out.println("Imprime a variavel na posicao 0, ou seja o numero: " + (num));
+        System.out.println("Imprime a variavel na posicao 1, ou seja o numero: " + (num));
     }
 }
